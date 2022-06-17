@@ -2,9 +2,6 @@
 
 let hours = ['6am','7am', '8am','9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm'];
 
-const table = document.getElementById('table-area');
-
-
 let seattle = {
   storeName: 'seattle',
   minCust: 23,
@@ -144,3 +141,16 @@ let lima = {
     }
   }
 };
+
+let tableSpace = document.getElementById('table');
+let row1 = document.createElement('tr');
+let column = document.createElement('td');
+
+column.textContent = hours,
+
+console.log(row1, tableSpace);
+
+row1.appendChild(column);
+tableSpace.appendChild(row1);
+
+console.log(seattle);

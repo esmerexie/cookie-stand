@@ -1,0 +1,29 @@
+fieldset {
+    border-radius: 3px;
+    border-color: wheat;
+    margin-bottom: 10px;
+    background-color: blanchedalmond;
+}
+
+.input-fields {
+    display: block;
+    padding: 5px;
+    width: 150px;
+    margin: 6px auto;
+}
+
+#input-submit {
+    padding: 5px;
+    display:flex;
+    margin:auto;
+}
+
+legend {
+    margin: auto;
+}
+
+form {
+    width: 200px;
+    margin: auto;
+}
+
