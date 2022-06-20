@@ -26,7 +26,7 @@ tr td {
     text-align: center;
     border: 1px solid black;
     border-radius: 3px;
-    background: rgb(228, 148, 83);
+    background: rgb(233, 135, 135);
     width: 100px;
     padding: 8px;
 }
@@ -34,4 +34,13 @@ tr td {
 button {
     padding: 5px;
     margin: 10px 0px 
+}
+
+body {
+    background-color: rgb(224, 212, 212);
+}
+
+#fishpic {
+    padding: 5px;
+    margin: auto;
 }

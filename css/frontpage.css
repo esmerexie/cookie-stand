@@ -1,0 +1,53 @@
+header {
+    background-color: rgb(160, 86, 86);
+    border:1px solid;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+h1 {
+    margin: 50px 10px 0px 30px
+}
+
+h2 {
+    margin-left: 40px;
+}
+
+p {
+    margin-left: 65px;
+}
+
+#email {
+    margin-left:0px;
+}
+
+#location {
+    margin-left: 0px;
+}
+
+a {
+    margin-left: 50px;
+}
+
+.storehours{
+    border:5px solid rgb(165, 58, 58);
+    border-radius: 15px;
+    width: 200px;
+    margin: 10px;
+    margin-left: 0px;
+    padding: 10px;
+}
+
+.contact {
+    border:5px solid rgb(165, 58, 58);
+    border-radius: 15px;
+    width: 200px;
+    margin: 10px;
+    margin-left: 0px;
+    padding: 10px;
+}
