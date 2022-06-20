@@ -1,0 +1,46 @@
+fieldset {
+    border-radius: 3px;
+    border-color: wheat;
+    margin-bottom: 10px;
+    background-color: blanchedalmond;
+}
+
+
+legend {
+    margin: auto;
+}
+
+form {
+    width: 200px;
+    margin: auto;
+}
+
+#table-area {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+tr td {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 3px;
+    background: rgb(233, 135, 135);
+    width: 100px;
+    padding: 8px;
+}
+
+button {
+    padding: 5px;
+    margin: 10px 0px 
+}
+
+body {
+    background-color: rgb(224, 212, 212);
+}
+
+#fishpic {
+    padding: 5px;
+    margin: auto;
+}
