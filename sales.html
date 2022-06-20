@@ -5,36 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sales Page</title>
-    <link type="text/css" rel="stylesheet" href="/css/style.css"
+    <link type="text/css" rel="stylesheet" href="/css/style.css">
 </head>
 
 <body id="content">
     
     <a href="index.html">Home Page Here</a>
 
-    <style>
-      table {
-        width: calc(100% - 20px);
-        border: thin black solid;
-        margin: 10px;
-      }
-      td {
-        
-        border: thin black solid;
-      }
-    </style>
-<form id="cookie-form">
+<form id="cookieForm">
+
   <fieldset>
+
     <legend>Cookie Sales</legend>
-    <input class="input-fields" id ="name" type="text" placeholder="Store Name" required>
-    <input class="input-fields" id ="minNumOfCustomers" type="text" placeholder="Minimum # Customers" required>
-    <input class="input-fields" id ="maxNumOfCustomers" type="text" placeholder="Maximum # Customers" required>
-    <input class="input-fields" id ="avgCookies" type="text" placeholder="Avg Cookie Sales" required>
+   
+    <input type = "text" name="location" placeholder="Store Name">
+    <input type = "text" name="min" placeholder="Min Cookies">
+    <input type = "text" name="max" placeholder="Max Cookies">
+    <input type = "text" name="avgCookies" placeholder="Avg Cookies">
+    <button type="submit">Get Results</button>
+
   </fieldset>
-  <input id="input-submit" type="submit" value="Get Results">
+
 </form>
 
-<table id="table-area"></table>
+<table id="table-area">
+  <th>Location</th>
+  <th>6am</th>
+  <th>7am</th>
+  <th>8am</th>
+  <th>9am</th>
+  <th>10am</th>
+  <th>11am</th>
+  <th>12pm</th>
+  <th>1pm</th>
+  <th>2pm</th>
+  <th>3pm</th>
+  <th>4pm</th>
+  <th>5pm</th>
+  <th>6pm</th>
+  <th>7pm</th>
+  <th>Total</th>
+</table>
 
 <script src="/js/app.js"></script>
 </body>

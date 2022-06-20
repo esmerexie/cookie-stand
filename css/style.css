@@ -5,18 +5,6 @@ fieldset {
     background-color: blanchedalmond;
 }
 
-.input-fields {
-    display: block;
-    padding: 5px;
-    width: 150px;
-    margin: 6px auto;
-}
-
-#input-submit {
-    padding: 5px;
-    display:flex;
-    margin:auto;
-}
 
 legend {
     margin: auto;
@@ -27,3 +15,23 @@ form {
     margin: auto;
 }
 
+#table-area {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+tr td {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 3px;
+    background: rgb(228, 148, 83);
+    width: 100px;
+    padding: 8px;
+}
+
+button {
+    padding: 5px;
+    margin: 10px 0px 
+}
